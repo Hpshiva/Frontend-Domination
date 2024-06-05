@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 3000px;
+  width: 100%;
+
+  /* background-color: aquamarine; */
+}
+.try {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(to right, rgb(104, 255, 139), red, yellow);
+  /* background: linear-gradient(to top, rgb(104, 255, 139), red, yellow); */
+  /* background: linear-gradient(to left, rgb(104, 255, 139), red, yellow); */
+}
