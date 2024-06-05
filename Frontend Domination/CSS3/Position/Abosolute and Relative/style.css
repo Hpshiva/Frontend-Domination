@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.parent {
+  position: relative; /*  if we give parent relative and child is absolute it come inside of parent */
+  width: 500px;
+  height: 500px;
+  background-color: crimson;
+}
+.child {
+  position: absolute;
+  left: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: yellowgreen;
+}
