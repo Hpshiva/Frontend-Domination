@@ -9,7 +9,11 @@ body {
   width: 100%;
 }
 
-h2::first-line {
-  font-size: 3rem;
-  color: crimson;
+h2 {
+  position: relative;
+  background-color: aqua;
+  width: fit-content;
+}
+.h2{
+  
 }

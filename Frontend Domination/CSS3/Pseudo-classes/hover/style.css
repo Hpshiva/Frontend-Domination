@@ -8,8 +8,14 @@ body {
   height: 100%;
   width: 100%;
 }
-
-h2::first-line {
-  font-size: 3rem;
+h2:hover {
+  font-size: 2rem;
   color: crimson;
+}
+div {
+  font-size: 5rem;
+}
+div:hover {
+  font-size: 6rem;
+  color: yellowgreen;
 }
