@@ -8,14 +8,12 @@ body {
   height: 100%;
   width: 100%;
 }
-button {
-  height: 4rem;
-  width: 12rem;
+input {
+  margin: 10rem;
+  height: 5rem;
+  width: 30rem;
 }
-
-button:active {
-  /* ON CLICK IT WILL WORK */
-  height: 8rem;
-  width: 24rem;
+input:focus {
   background-color: crimson;
+  color: white;
 }
