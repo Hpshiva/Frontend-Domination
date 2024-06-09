@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+.nav1 {
+  height: 9vh;
+  padding: 0vw 2vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.circle i {
+  gap: 0px;
+  font-size: 2vw;
+}
+.en {
+  gap: 3vw;
+  display: flex;
+  font-size: 1.1vw;
+}
+.nav2 {
+  font-size: 1.4vw;
+  display: flex;
+  gap: 3vw;
+  padding: 0.6vw 2vw;
+}
+.trendline {
+  width: 100vw;
+  height: 35vh;
+  font-size: 4vw;
+
+  display: flex;
+  overflow-x: auto;
+}
+.trendline::-webkit-scrollbar {
+  /* background-color: transparent; */
+  width: 0.8vw;
+  height: 1.4vh;
+}
+.trendline::-webkit-scrollbar-thumb {
+  background-color: orangered;
+}
+.trendline::-webkit-scrollbar-track {
+}
+.trendline .elem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  /* border: 2px solid black/; */
+  flex-shrink: 0;
+}
+.model {
+  height: 50.5%;
+  width: 100%;
+  overflow: hidden;
+}
+.model img {
+  width: 100%;
+  height: 50.5vh;
+  object-fit: cover;
+  object-position: 0% 30%; /* This is the correct property to use */
+}
+
+@media (max-width: 600px) {
+  .nav1 {
+    padding: 0vw 4vw;
+  }
+  .circle i {
+    font-size: 4vw;
+  }
+  .en {
+    font-size: 2.7vw;
+  }
+  .nav2 {
+    font-size: 3vw;
+    padding: 0.6vw 4vw;
+  }
+  .trendline {
+    width: 100vw;
+    height: 35vh;
+    font-size: 7vw;
+    display: flex;
+    overflow-x: auto;
+  }
+}
