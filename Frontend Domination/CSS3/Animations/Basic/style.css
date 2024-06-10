@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 300%;
+  background-color: cornflowerblue;
+}
+.box {
+  height: 20vw;
+  width: 20vw;
+  position: absolute;
+  animation-name: anime;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  background-color: aqua;
+}
+
+@keyframes anime {
+  from {
+    left: 0;
+    rotate: 100deg;
+  }
+  to {
+    border-radius: 50%;
+    left: 80%;
+    background-color: red;
+  }
+}

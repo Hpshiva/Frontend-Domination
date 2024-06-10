@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 300%;
+  background-color: rgb(181, 207, 255);
+}
+.box1 {
+  height: 15vw;
+  width: 15vw;
+  background-color: crimson;
+  position: absolute;
+  animation-name: box1;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.box2 {
+  margin-top: 60vh;
+  height: 15vw;
+  position: absolute;
+  width: 15vw;
+  animation-name: box2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+  background-color: olivedrab;
+}
+@keyframes box1 {
+  0% {
+    left: 0;
+  }
+  90% {
+    left: 60%;
+  }
+}
+
+@keyframes box2 {
+  0% {
+    left: 0;
+  }
+  80% {
+    left: 80%;
+  }
+}
