@@ -1,0 +1,6 @@
+You can use it in much more interesting ways, especially for creating real-life shadow effects.
+
+And if you combine it with a gradient, it becomes even more realistic.
+
+Something like this: -webkit-box-reflect: below -10px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, transparent), to(rgba(255, 255, 255, 0.75)));
+ width: 80px;
